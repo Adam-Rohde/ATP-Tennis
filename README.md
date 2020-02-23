@@ -1,4 +1,4 @@
-### ATP-Tennis Match Data Analysis (In Progress)
+### ATP Tennis Match Data Analysis (In Progress)
 
 Authors: Adam Rohde
 
