@@ -19,7 +19,7 @@ Files:
 
 * Jupyter Notebooks: ATP_Match_Data_Explore.ipynb, ATP_Match_Data_Clean_and_Database_Creation.ipynb, ATP_Match_Data_Elo_Ratings.ipynb
 
-* Data: atp_matches_*.csv, atp_players.csv, atp_rankings_*.csv
+* Data: atp_matches_\*.csv, atp_players.csv, atp_rankings_\*.csv
 
 Extensions:
 
