@@ -4,23 +4,26 @@ Authors: Adam Rohde
 
 Date: 2/23/2020
 
-Description: We’ll explore ATP match level data from 1991 to 2020. Some of the questions we’ll look into include: 
+Description: We’ll explore ATP match level data from 1991 to 2020. The work will include
 
-* What is the effect of age on performance and has this changed over time? (Interpertable Models) 
-* What are the most important features for identifying variation in performance? (PCA) 
-* How well does previous season’s preformance determine current season preformance? 
-* Do players have “hot” streaks where winning begets more winning? 
-* Is there more variance in the results for best-of-three versus best-of-five set matches? (Does the higher ranked player or player who has done better in head-to-head win more frequently?) 
-* How important are first serve percentage, break points saved/won, number of aces, average serve speed, … effect performance? 
-* Are big servers better? (Not controlling for other factors) 
-* Do lefties perfrom better against righties or other lefties? 
+* Explore the data.
+* Cleaning the data and building a database.
+* Calculating Elo Ratings.
+* Performing simple analyses: Are older players doing better? What are the most important statistics for winning? How well does previous season’s preformance determine current season preformance? How do the results for best-of-three versus best-of-five set matches differ? How does handedness effect matchups?
+* Build models for predicting match winner incorporating player and head-to-head statistics as well as Elo ratings.
+* Build a web app that provides player profiles, match up predictions, match up histories, Elo ratings, other fun things.  
 
-We’ll also try to build a model for predictinig match winner. (Using DL, SVM, and/or XGBoost.)
-
-Dataset: [JeffSackmann/tennis_atp](https://github.com/JeffSackmann/tennis_atp)
+Data Source: [JeffSackmann/tennis_atp](https://github.com/JeffSackmann/tennis_atp)
 
 Files:
 
-* Jupyter Notebook: to be added
+* Jupyter Notebooks: ATP_Match_Data_Explore.ipynb, ATP_Match_Data_Clean_and_Database_Creation.ipynb, ATP_Match_Data_Elo_Ratings.ipynb
 
-* Data: atp_matches_*.csv
+* Data: atp_matches_*.csv, atp_players.csv, atp_rankings_*.csv
+
+Extensions:
+
+* Update Elo ratings to account for surface, best of 3 vs 5, score in sets or games, and players missing long stretches. 
+* Incorporate more years of data. Specifically, to improve Elo ratings. 
+* Do more to repopoulate some missing data. 
+
