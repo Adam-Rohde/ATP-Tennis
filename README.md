@@ -10,7 +10,7 @@ Description: We’ll explore ATP match level data from 1991 to 2020. The work wi
 * Cleaning the data and building a database.
 * Calculating Elo Ratings.
 * Performing simple analyses: Are older players doing better? What are the most important statistics for winning? How well does previous season’s preformance determine current season preformance? How do the results for best-of-three versus best-of-five set matches differ? How does handedness effect matchups?
-** Right now olny the first of these has been explored.
+    * Right now olny the first of these has been explored.
 * Build models for predicting match winner incorporating player and head-to-head statistics as well as Elo ratings.
 * Build a web app that provides player profiles, match up predictions, match up histories, Elo ratings, other fun things.  
 
