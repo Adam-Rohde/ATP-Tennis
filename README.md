@@ -9,10 +9,14 @@ Description: We’ll explore ATP match level data from 1991 to 2020. The work wi
 * Explore the data.
 * Cleaning the data and building a database.
 * Calculating Elo Ratings.
-* Performing simple analyses: Are older players doing better? What are the most important statistics for winning? How well does previous season’s preformance determine current season preformance? How do the results for best-of-three versus best-of-five set matches differ? How does handedness effect matchups?
-    * Right now olny the first of these has been explored.
-* Build models for predicting match winner incorporating player and head-to-head statistics as well as Elo ratings.
-* Build a web app that provides player profiles, match up predictions, match up histories, Elo ratings, other fun things.  
+* Performing simple analyses that I found interesting. There will surely be more of these to come. 
+    * Are older players doing better?  
+    * How many matches are typically in a player's career and how many years does a typical career last?
+    * How many players have been ranked number 1 and how can we visualize which players dominated during different periods of time?
+    * How do the results for best-of-three versus best-of-five set matches differ? (In Progress)
+    * How does handedness effect matchups? (In Progress)
+* Build models for predicting match winner incorporating match and player information, head-to-head statistics, as well as Elo ratings. (In Progress but there is some initial work on this.)
+* Build a web app that provides player profiles, match up predictions, match up histories, Elo ratings, other fun things.  (In Progress)
 
 Data Source: [JeffSackmann/tennis_atp](https://github.com/JeffSackmann/tennis_atp)
 
