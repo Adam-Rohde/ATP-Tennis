@@ -22,13 +22,13 @@ Data Source: [JeffSackmann/tennis_atp](https://github.com/JeffSackmann/tennis_at
 
 Files:
 
-* Jupyter Notebooks: ATP_Match_Data_Explore.ipynb, ATP_Match_Data_Clean_and_Database_Creation.ipynb, ATP_Match_Data_Elo_Ratings.ipynb
+* Jupyter Notebooks in which I process the data and analyze it
 
 * Data: atp_matches_\*.csv, atp_players.csv, atp_rankings_\*.csv (Note the data live in Google Drive.)
 
 Extensions:
 
-* Update Elo ratings to account for surface, best of 3 vs 5, score in sets or games, and players missing long stretches. 
-* Incorporate more years of data. Specifically, to improve Elo ratings. 
+* Update Elo ratings to account for best of 3 vs 5, score in sets or games, and players missing long stretches. 
+* Additional fun analyses.
 * Do more to repopoulate some missing data. 
 
